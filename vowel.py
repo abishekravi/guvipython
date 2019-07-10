@@ -1,7 +1,7 @@
-ch = input("Please Enter Your Own Character : ")
+c = input("Please Enter Your Own Character : ")
 
-if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' or ch == 'A'
-       or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U'):
-    print("The Given Character ", ch, "is a Vowel")
+if(c == 'a' or c == 'e' or c == 'i' or c == 'o' or c == 'u' or c == 'A'
+       or c == 'E' or c == 'I' or c == 'O' or c == 'U'):
+    print("The Given Character ", c, "is a Vowel")
 else:
-    print("The Given Character ", ch, "is a Consonant")
+    print("The Given Character ", c, "is a Consonant")
